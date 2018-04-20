@@ -8,13 +8,15 @@ public class SpawnObjects : MonoBehaviour {
     public GameObject spawnButton;
     public GameObject RestartButton;
     public GameObject obj1;
+    public AudioSource gun;
+
 	void Start () {
-		
+   
 	}
 	
 
 	void Update () {
-		
+       
 	}
     public void SpawnObj()
     {
@@ -27,5 +29,17 @@ public class SpawnObjects : MonoBehaviour {
     public void RestartLvl()
     {
         SceneManager.LoadScene("main");
+    }
+    public void pushka()
+    {
+        StartCoroutine(booms());
+
+    }
+    public IEnumerator booms()
+    {
+        gun.enabled = true; 
+        yield return new WaitForSeconds(2);
+        gun.enabled = false;   
+
     }
 }
