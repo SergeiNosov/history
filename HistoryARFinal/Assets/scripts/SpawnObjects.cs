@@ -8,10 +8,10 @@ public class SpawnObjects : MonoBehaviour {
     public GameObject spawnButton;
     public GameObject RestartButton;
     public GameObject obj1;
-    public AudioSource gun;
+   
 
 	void Start () {
-   
+
 	}
 	
 
@@ -37,9 +37,9 @@ public class SpawnObjects : MonoBehaviour {
     }
     public IEnumerator booms()
     {
-        gun.enabled = true; 
+        GameObject.Find("CameraParent/Main Camera").GetComponent<AudioSource>().enabled = true; 
         yield return new WaitForSeconds(2);
-        gun.enabled = false;   
+        GameObject.Find("CameraParent/Main Camera").GetComponent<AudioSource>().enabled = false;   
 
     }
 }
