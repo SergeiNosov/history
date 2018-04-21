@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: fa4a8afbe844549bf98542db022616d0
+  productGUID: 3ae5adfc6676b48cd99af7187baa707c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -161,7 +161,7 @@ PlayerSettings:
     Android: com.Company.ProductName
     Standalone: unity.Unity Technologies.Native Rendering Plugin Example
     Tizen: com.Company.ProductName
-    iOS: com.Quasi.HistoryAR
+    iOS: com.unity.arkitscene
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0

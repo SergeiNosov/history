@@ -37,9 +37,18 @@ public class SpawnObjects : MonoBehaviour {
     }
     public IEnumerator booms()
     {
-        GameObject.Find("CameraParent/Main Camera").GetComponent<AudioSource>().enabled = true; 
-        yield return new WaitForSeconds(2);
-        GameObject.Find("CameraParent/Main Camera").GetComponent<AudioSource>().enabled = false;   
+       
+        yield return new WaitForSeconds(3/2);
 
+        GameObject.Find("Ground(Clone)/LPrig/Root/patron4").GetComponent<MeshRenderer>().enabled = false; 
+        GameObject.Find("CameraParent/Main Camera").GetComponent<AudioSource>().enabled = true;
+        yield return new WaitForSeconds(2/10);
+        GameObject.Find("Ground(Clone)/gun/BoomEffect/SmallExplosionEffect").SetActive(true);
+        yield return new WaitForSeconds(2);
+        GameObject.Find("Ground(Clone)/gun/BoomEffect/SmallExplosionEffect").SetActive(false);
+        GameObject.Find("CameraParent/Main Camera").GetComponent<AudioSource>().enabled = false;   
+        yield return new WaitForSeconds(1/2);
+
+        GameObject.Find("Ground(Clone)/LPrig/Root/patron4").GetComponent<MeshRenderer>().enabled = true; 
     }
 }
