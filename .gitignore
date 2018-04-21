@@ -44,5 +44,5 @@ sysinfo.txt
 HistoryARFinal/Assets/models/
 HistoryARFinal/HistoryAR/
 HistoryARFinal/Assets/desktop.ini
-HistoryARFinal/Library/
-HistoryARFinal/Temp/
+HistoryARFinal/Library/*
+HistoryARFinal/Temp/*
