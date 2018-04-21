@@ -44,5 +44,10 @@ sysinfo.txt
 HistoryARFinal/Assets/models/
 HistoryARFinal/HistoryAR/
 HistoryARFinal/Assets/desktop.ini
-HistoryARFinal/Library/*
-HistoryARFinal/Temp/*
+HistoryARFinal/Library/
+HistoryARFinal/Temp/
+HistoryARFinal/Temp/il2cppOutput/il2cppOutput/
+HistoryARFinal/Temp/StagingArea/Trampoline/Data/
+HistoryARFinal/Temp/StagingArea/Data/
+HistoryARFinal/Library/metadata/
+HistoryARFinal/Library/PlayerDataCache/
