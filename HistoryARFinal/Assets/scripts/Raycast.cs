@@ -6,10 +6,11 @@ public class Raycast : MonoBehaviour {
     public Camera camerapos;
     public GameObject patronsGet;
     public GameObject ButtonGET;
-    public GameObject ButtonTake;
 
- 
-	// Use this for initialization
+    public GameObject binButton;
+    public GameObject CanStar;
+    public GameObject Canbin;
+    // Use this for initialization
 	void Start () {
        
 	}
@@ -25,16 +26,19 @@ public class Raycast : MonoBehaviour {
             if (objectHit.name == "patron2") 
             {
                 ButtonGET.SetActive(true);
+                binButton.SetActive(false);
             } 
-            if(objectHit.name == "Trigger" & patronsGet.activeSelf)
+          
+            if(objectHit.name == "binokol")
             {
-                ButtonTake.SetActive(true);
+                binButton.SetActive(true);
+                ButtonGET.SetActive(false);
             }
-
         }
         else {
-            ButtonTake.SetActive(false);
+      
             ButtonGET.SetActive(false);
+            binButton.SetActive(false);
         }
 	}
 
@@ -50,5 +54,15 @@ public class Raycast : MonoBehaviour {
 
 
 
+    }
+    public void binokol()
+    {
+        CanStar.SetActive(false);
+        Canbin.SetActive(true);
+    }
+    public void Back()
+    {
+        CanStar.SetActive(true);
+        Canbin.SetActive(false);  
     }
 }
