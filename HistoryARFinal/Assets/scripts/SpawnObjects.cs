@@ -8,7 +8,7 @@ public class SpawnObjects : MonoBehaviour {
     public GameObject spawnButton;
     public GameObject RestartButton;
     public GameObject obj1;
-   
+    
 
 	void Start () {
 
@@ -25,6 +25,8 @@ public class SpawnObjects : MonoBehaviour {
         Destroy(spawnpoint);
         spawnButton.SetActive(false);
         RestartButton.SetActive(true);
+        StartCoroutine(auds());
+
     }
     public void RestartLvl()
     {
@@ -40,7 +42,7 @@ public class SpawnObjects : MonoBehaviour {
        
         yield return new WaitForSeconds(3/2);
 
-        GameObject.Find("Ground(Clone)/LPrig/Root/patron4").GetComponent<MeshRenderer>().enabled = false; 
+        GameObject.Find("Ground(Clone)/LPrig/Root/patron4/Shell").GetComponent<MeshRenderer>().enabled = false; 
         GameObject.Find("CameraParent/Main Camera").GetComponent<AudioSource>().enabled = true;
         yield return new WaitForSeconds(2/10);
         GameObject.Find("Ground(Clone)/gun/BoomEffect/SmallExplosionEffect").SetActive(true);
@@ -49,6 +51,11 @@ public class SpawnObjects : MonoBehaviour {
         GameObject.Find("CameraParent/Main Camera").GetComponent<AudioSource>().enabled = false;   
         yield return new WaitForSeconds(1/2);
 
-        GameObject.Find("Ground(Clone)/LPrig/Root/patron4").GetComponent<MeshRenderer>().enabled = true; 
+        GameObject.Find("Ground(Clone)/LPrig/Root/patron4/Shell").GetComponent<MeshRenderer>().enabled = true; 
+    }
+    public IEnumerator auds()
+    {
+        yield return new WaitForSeconds(4);
+        GameObject.Find("Manager").GetComponent<AudioSource>().enabled = true;
     }
 }
