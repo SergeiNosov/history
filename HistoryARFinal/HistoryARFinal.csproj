@@ -312,7 +312,10 @@
     <Compile Include="Assets\GoogleDisk\models\particle system\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
     <Compile Include="Assets\GoogleDisk\models\particle system\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\GoogleDisk\models\particle system\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\scripts\CheckTriggerPatron.cs" />
+    <Compile Include="Assets\scripts\Raycast.cs" />
     <Compile Include="Assets\scripts\SpawnObjects.cs" />
+    <Compile Include="Assets\scripts\SpawnObjects2.cs" />
     <Compile Include="Assets\scripts\TriggerGun.cs" />
     <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />
