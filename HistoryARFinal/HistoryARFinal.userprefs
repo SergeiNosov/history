@@ -1,13 +1,12 @@
-﻿<Properties StartupConfiguration="{E6A36A12-9BF1-11E4-305F-A204FB405F5B}|" StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\MenuController.cs">
+﻿<Properties StartupConfiguration="{E6A36A12-9BF1-11E4-305F-A204FB405F5B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/MenuController.cs">
     <Files>
-      <File FileName="Assets\scripts\SpawnObjects.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\TriggerGun.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoogleDisk\models\particle system\EffectExamples\Shared\Scripts\GunAim.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\MenuController.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Raycast.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/CheckTriggerPatron.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/MenuController.cs" Line="4" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
