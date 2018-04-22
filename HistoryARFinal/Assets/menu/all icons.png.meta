@@ -3,7 +3,11 @@ guid: 414bb133fad993441be81c763b5d67fc
 timeCreated: 1524349578
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: all icons_0
+    21300002: all icons_1
+    21300004: all icons_2
+    21300006: all icons_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -99,7 +103,63 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: all icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 518
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: all icons_1
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 45
+        width: 518
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: all icons_2
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 0
+        width: 484
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: all icons_3
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 113
+        width: 273
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
